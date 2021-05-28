@@ -1,4 +1,4 @@
-package com.project.bootcamp.utl;
+package com.project.bootcamp.util;
 
 public abstract class MessageUtils {
 

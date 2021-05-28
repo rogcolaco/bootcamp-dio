@@ -6,14 +6,10 @@ import com.project.bootcamp.mapper.StockMapper;
 import com.project.bootcamp.model.Stock;
 import com.project.bootcamp.model.dto.StockDTO;
 import com.project.bootcamp.repository.StockRepository;
-import com.project.bootcamp.utl.MessageUtils;
+import com.project.bootcamp.util.MessageUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.MediaType;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import org.springframework.web.bind.annotation.DeleteMapping;
-import org.springframework.web.bind.annotation.PathVariable;
 
 import java.time.LocalDate;
 import java.util.List;

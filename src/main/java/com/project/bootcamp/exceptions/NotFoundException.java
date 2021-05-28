@@ -1,6 +1,6 @@
 package com.project.bootcamp.exceptions;
 
-import com.project.bootcamp.utl.MessageUtils;
+import com.project.bootcamp.util.MessageUtils;
 
 public class NotFoundException extends RuntimeException{
 
