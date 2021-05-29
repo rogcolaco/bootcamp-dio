@@ -12,10 +12,10 @@ spring:
   jpa:
     show-sql: true
     database-platform: org.hibernate.dialect.PostgreSQLDialect
-    generate-dll: true
+    generate-ddl: true
     hibernate:
-      dll-auto: none
+      ddl-auto: none
 
 application:
   description: Projeto criado para o bootcamp DIO / Santander
-  version: 1.1.1
+  version: 1.1.2
